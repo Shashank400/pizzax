@@ -1,0 +1,93 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+img{
+    width:70px;
+
+}
+.navbar{
+    background-color:grey;
+}
+.navbar-collapse{
+    cursor: pointer;
+}
+
+.heading{
+    color: grey;
+    font-family:'algerian', underlined; 
+}
+
+.play-btn{
+    margin-left: 40px;
+    bottom: 0;
+    display: inline-flex;
+}
+.play-btn-inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    background-image: radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    text-align: center;
+}
+.play-btn-inner .fa{
+    padding: 18px 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+small{
+    margin: auto 20px;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+
+.border-primary{
+    background: #272727;
+    cursor: pointer;
+}
+
+.fa {
+  padding: 18px;
+  font-size: 100px;
+  width: 70px;
+  height: 50px;
+  text-align: center;
+  color: cyan;
+  cursor: pointer;
+}
+
+
+.cloud-image{
+    width: 125px;
+    height: 100px;
+}
+.text{
+    color: cyan;
+}
+.float-md-right{
+    font-family: 'Roboto', sans-serif;
+    height: 100px;
+    color: cyan;
+}
+
+.footer-bottom{
+    font-family: 'Roboto', sans-serif;
+    color: cyan;
+}
+
+.rounded{
+    width: 350px;
+    height: 280px;
+    position: relative;
+}
+
+
